@@ -1,2 +1,2 @@
 # presentations
-Presentations for conferences
+Presentations or talks for Linux conferences and computer science classes
