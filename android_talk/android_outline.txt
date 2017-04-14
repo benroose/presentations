@@ -1,0 +1,61 @@
+Title: How Open Source can we make Android?
+
+What is the main point?
+	Android is theoretically open source, but there are tough choices to run an open source Android phone within a proprietary ecosystem
+
+Need a short Description:
+
+
+Need to expand:
+
+	SLIDE 1: Intro - ethicality of open source vs. usability of a smartphone!
+	      	 Personal journey of six months with an almost fully open source phone (in software)
+
+	SLIDE 2		Layers of a modern Android smartphone
+	
+	   6 cloud storage and synching of user data (CardDAV/CalDAV + personal photos, music, etc.)
+	   --------------
+	   5 user apps
+	   4 app repository
+	   3 operating system
+	   2 device drivers
+	   1 physical hardware
+
+	SLIDE 3	        Smartphone layers separated by proprietary and open solutions
+	   LAYER	       	    	PROPRIETARY	  		    OPEN
+	   6 cloud storage 		 Google Contacts/Calendar	    NextCloud/Radicale
+	   --------------
+	   5 user apps			Gapps/most third party apps	    Open Source alternatives for basic functions
+	   4 app repository		Google Play (many, many apps)       F-Droid (fewer options, FOSS apps only)
+	   3 operating system		--     	    	   		    Android (running Linux)
+	   2 device drivers		Most mod drivers (owned by manuf)   Some modules of older models (Samsung Galaxy S3)
+	   1 physical hardware		Almost all devices     		     Very, very few and hard to get devices NEED EXAMPLES
+
+	SLIDE 4-6     Breaking down where we can open source per layer (picking your battles)
+	      	      Look at pros/cons at each layer = how easy can we make each layer open source?
+		      Give a nod to Craig Comstock rolling his own old school GSM phone OS, but beyond my knowledge!
+		      Use examples at each layer - show complexity, ease of converting, what we lose
+		      Open hardware is impossible and open drivers are far too limiting
+		      It gets easier as you go up the layers, but options are still limited
+		      Show some of the technical methods to do it and introduce terminology (heimdal, Clockworkmod recovery, remote shell, unlocking vs. rooting)
+
+	SLIDE 7-10    Lessons learned the hard way
+	      	      Asking your carrier to switch you over to a phone not yet fully working is dangerous when you rely on your phone for calling, texting, and emailing!
+	      	      Make, model, and model # makes all the difference (buying 3 different Galaxy S3 before I got it right)
+		      Replicant OS vs. Cyanogenmod/Lineage OS (history of CGM --> LOS)
+		      Gapps, GooglePlay, and failed flashing attempts!
+		      Shifting to the world of F-Droid
+		      The apps you miss when you don't have access to GooglePlay - WSU emergency app, bus transit, Uber, likely games
+		      How to detach a smartphone from Gapps while still living in the Google ecosystem?
+		      CardDAV/CalDAV tips for linking DAVdroid with Google contacts and calendar
+		      Jabber, Google Hangouts (but no longer Facebook messages), and tips on Google Voice
+
+	SLIDE 11      Moving forward to a conclusion - is the ethical high ground worth the uphill battle?
+	      	      Obvious next big step - dumping the entire Google ecosystem and roll your own open source cloud solution
+		      	      Radicale = CardDav/CalDav	  OwnCloud-->NextCloud = CardDav/CalDav plus full data storage/sync
+		      How practical is all this in the world of Google's playland?
+	
+	SLIDE 12	DEMO - WHAT TO SHOW??
+	
+	
+EXTRAS	

@@ -1,0 +1,73 @@
+Title: Process Job Control in the Linux Shell
+
+What is the main point?
+	How process control works...Kerrisk pp. 717 fig. 34-2
+
+Problem solving:
+	how to run a process which doesn't end on log out (or when session disconnects, i.e. ssh)?
+	how to find a running background process and how to kill it?
+	.xsession-errors?
+
+Need to examine:
+
+	SLIDE 1: Intro
+	1. processes, groups, and sessions - PID, PPID?, PGID, SID
+		Use of ps, top, htop, and pgrep
+		
+	SLIDE 2 & 3	Define a process!
+			Define a PID and PPID
+			Leads into init (PID 1)
+			Q: do we need a slide to define the kernel and kernelspace vs. userspace? NO
+		
+	SLIDE 4 & 5	Define terminal (tty) and pseudo-terminal (window terminal)
+			Define shell process (Bash, sh, tcsh, korn) which connects to a terminal or pseudo-terminal
+	
+	SLIDE 6		Leads into Process Group (PGID) and Session (SID)
+			EXAMPLE: $ ps -j $$ or ps -o "pid ppid pgid sid tname command" $$
+			Explain ps (it reads process information from the /proc filesystem)
+			Ask what is /proc?
+			Ask what the difference is between ps, top, and htop? NO, just mention top and htop
+			Talk through ps output (review bash, PID, PPID tty), then discuss PGID and SID
+			
+	SLIDE 7	Session leader is the controlling process of a terminal (tty), i.e. when a new shell login terminal or pseudo-terminal (new terminal window) is run by a user, it becomes a session leader.
+			Only one process group in a session can be in foreground (have access to the terminal) at any one time
+			All other process groups in a session are in background
+			
+	SLIDE 8	EXAMPLE: Run something like
+				$ cat /dev/urandom | sort | uniq &
+				$ ps --forest -o 'pid ppid pgid sid command'
+				
+			Build a diagram something similar to Kerrisk pp. 701 fig. 34-1
+			Need to mention that & = places command as a background process group (otherwise command will become the foreground process group)
+		
+	2. process signals - SIGINT, SIGQUIT, SIGTSTP, SIGCONT, SIGSTOP, SIGHUP?
+		use of Ctrl+C, Ctrl+Z, fg, bg, &, kill, pkill, jobs
+		
+	SLIDE 9	Signals are a method for processes to talk to each other
+			Software signals/interrupts are analogous to hardware interrupts (ask what are some hardware interrupts?)
+			Our main interest is how the Kernel (and the bash shell?) can send signals to processes (i.e. user typing the interrupt character CTRL+C)
+			Signals are defined by a unique number, but usually identified by a symbolic name
+	
+	SLIDE 10	Table showing some basic signals (from kerrisk pp. 396 table 20-1)
+				SIG_NAME	SIG_#	DESCRIPTION		DEFAULT PROCESS BEHAVIOUR 	KEYBOARD CHARACTER IN SHELL?
+		
+		TALKED ABOUT IN SLIDE 10 Commands which control signals of processes
+			use of Ctrl+C, Ctrl+Z, fg, bg, &, kill, pkill, jobs
+			
+	3. Job Control
+	SLIDE 11	Putting it all together: pp. 717 fig. 34-2!!
+	
+	SLIDE 12	DEMO!
+	
+	
+EXTRAS	
+	4. process priority?
+		use of nice, renice
+	5. Zombie and orphan processes?
+	
+	6. Signals and pseudo-terminals
+		nohup and screen
+		Maybe talk about signal handlers doing something different with the signal (example is ping!)
+	
+	
+	
