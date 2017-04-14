@@ -27,9 +27,9 @@ Need to expand:
 	   --------------
 	   5 user apps			Gapps/most third party apps	    Open Source alternatives for basic functions
 	   4 app repository		Google Play (many, many apps)       F-Droid (fewer options, FOSS apps only)
-	   3 operating system		--     	    	   		    Android (running Linux)
+	   3 operating system		FOSS but stock is tied to Gapps     Android (running Linux)
 	   2 device drivers		Most mod drivers (owned by manuf)   Some modules of older models (Samsung Galaxy S3)
-	   1 physical hardware		Almost all devices     		     Very, very few and hard to get devices NEED EXAMPLES
+	   1 physical hardware		Almost all devices     		    Very, very few and hard to get devices NEED EXAMPLES
 
 	SLIDE 4-6     Breaking down where we can open source per layer (picking your battles)
 	      	      Look at pros/cons at each layer = how easy can we make each layer open source?
