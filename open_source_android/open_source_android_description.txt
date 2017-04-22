@@ -1,6 +1,6 @@
 Speaker: Ben Roose
 
-Presentation Title: Can an Android device be Open Source and be functional?
+Presentation Title: Can an Android device be Open Source and functional?
 
 Presentation Abstract: A discussion on how to use Open Source components within Android mobile devices. The talk includes tips and tricks from personal experiences using only Open Source Android app repositories during the last six months.
 This presentation covers:
