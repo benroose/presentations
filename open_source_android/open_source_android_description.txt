@@ -1,0 +1,16 @@
+Speaker: Ben Roose
+
+Presentation Title: Can an Android device be Open Source and be functional?
+
+Presentation Abstract: A discussion on how to use Open Source components within Android mobile devices. The talk includes tips and tricks from personal experiences using only Open Source Android app repositories during the last six months.
+This presentation covers:
+Six layers of functionality within Android mobile devices six six layers of functionality layers of functionality
+Discussing Open Source options for each of the six layers
+Introducing "modders" terms and tools for installing Android
+Hard lessons learned using only Open Source Android Apps
+Tips for staying Open Source inside the Google ecosystem
+Options to roll your own private cloud service for synchronization with Android devices
+
+Biography: Ben Roose spent much of his early life working in the theatre and dance performance industry, but has been playing with Linux boxes since the mid-2000s. His hobby of building computers in his living room evolved into a full-time job later in life. Ben holds a masters degree in computer networking and is currently the systems administrator for the Department of Electrical Engineering and Computer Science at Wichita State University. When it comes to talking about Linux and Open Source, Ben attempts to combine the academic theory of his graduate training in computing with a healthy streak of practicality from on-the-job experience.
+
+Past Presentations: Ben has presented talks previously at Kansas Linux Fest 2015 and 2016, and at Ohio Linux Fest 2016. He has been a member of the Kansas Linux Fest 2016 and 2017 planning teams (http://kansaslinuxfest.org). In addition, Ben regularly gives lectures at Wichita State University for formal classes in Information Assurance & Security, Foundations of Network Security, and Introduction to Programming.

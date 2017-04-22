@@ -1,0 +1,18 @@
+Speaker: Ben Roose
+
+Presentation Title: Process and Job Control in Linux
+
+Presentation Abstract: A discussion on the theory and practical application of Linux process identifiers, groups, sessions, and signals. This presentation covers:
+Processes (PID) and the ps command
+Parent and child processes (PPID)
+Terminals, pseudoterminals, and shells
+Process sessions (SID) and process groups (PGID)
+Orphan and zombie processes
+Signals, terminal keybindings, and the kill command
+Process job control (foreground vs. background)
+
+NOTE 1: This is an introductory talk on the theory of process control, and would fit nicely as a pre-session to a follow-on talk about /proc or  Linux system calls (if you have someone else offering such a talk in this conference).
+
+Biography: Ben Roose spent much of his early life working in the theatre industry, but has been playing with Linux boxes since the mid-2000s. His hobby of building computers in his living room evolved into a full-time job within the computing world. Ben holds a masters degree in computer networking and is currently the systems administrator for the Department of Electrical Engineering and Computer Science at Wichita State University. Ben now gets to play with Linux desktops, servers, and high performance computing clusters all the time! When it comes to giving lectures on Linux, Ben attempts to combine the academic theory of his graduate training in computer science with a healthy streak of practicality from on-the-job experience.
+
+Past Presentation: Ben has presented both of the submitted talks before at Kansas Linux Fest 2015 and 2016, and was a member of the Kansas Linux Fest 2016 planning team (http://kansaslinuxfest.org). He has also given lectures and taught formal classes at Wichita State University over the past few years, and is a faculty advisor for the WSU Linux User Group (WuLUG) in Wichita, KS (https://www.facebook.com/wulug).

@@ -1,0 +1,9 @@
+Presentation Title: Linux File Permissions and Access Control
+
+Speaker: Ben Roose
+
+Presentation Abstract: A discussion on the basics and theory of Linux filesystems, directory structure, and file security permissions. This presentation will show how understanding file and directory structure gives a Linux user more understanding of file permissions and the differences between hard links and symbolic links. The presentation culminates in a practical demonstration of user access control within the Linux operating system.
+
+Biography: Ben Roose spent much of his early life working in the theatre industry, but has been playing with Linux boxes since the mid-2000s. His hobby of building computers in his living room evolved into a full-time job within the computing world. Ben holds a masters degree in computer networking and is currently the systems administrator for the Department of Electrical Engineering and Computer Science at Wichita State University. Ben now gets to play with Linux desktops, servers, and high performance computing clusters all the time! When it comes to giving lectures on Linux, Ben attempts to combine the academic theory of his graduate training in computer science with a healthy streak of practicality from on-the-job experience.
+
+Past Presentation: Ben has presented both of the submitted talks before at Kansas Linux Fest 2015 and 2016, and was a member of the Kansas Linux Fest 2016 planning team (http://kansaslinuxfest.org). He has also given lectures and taught formal classes at Wichita State University over the past few years in programming and computer security, and is a faculty advisor for the WSU Linux User Group (WuLUG) in Wichita, KS (https://www.facebook.com/wulug).
