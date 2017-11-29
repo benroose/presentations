@@ -1,4 +1,4 @@
-# Title: Cryptocurrency Myths: Public perception and understanding in the Bitcoin era
+# Cryptocurrency Myths: Public perception and understanding in the Bitcoin era
 
 ## Short Description:
 
